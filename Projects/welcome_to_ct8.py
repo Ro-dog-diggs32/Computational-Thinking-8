@@ -5,7 +5,6 @@ from codesters import StageClass
 stage = StageClass()
 ###############################################
 
-
 stage.set_background("el primo back") 
 mySprite = codesters.Sprite("el quarterback")
 mySprite.say("get out brawl stars is the best!")
