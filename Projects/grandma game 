@@ -1,0 +1,9 @@
+while True:
+    word = input("what do you think grandma likes?")
+
+    if word in ["cash","roan","wyatt","liam","pete"] in word:
+        print(f"gradma doesn't like {word}!")
+    else:
+        print(f"gradma likes {word}")
+
+    print("")
