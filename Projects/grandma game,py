@@ -1,0 +1,9 @@
+while True:
+    word = input("what do you think Roan likes?")
+
+    if any(x in word for x in ["cash","money","currency","mon","cur","ca"]):
+        print(f"Roan likes {word}")
+    else:
+        print(f"Roan doesn't like {word}!")
+
+    print("")
