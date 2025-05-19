@@ -9,7 +9,7 @@ def set_background(image_filename):
 def create_sprite(image_filename, x=0, y=0):
 	image_file = f"/workspaces/Computational-Thinking-8/Images/{image_filename}.gif"
 	screen = turtle.Screen()
-	screen.register_shape(image_file)
+	screen.register_shape(image_file) 
 	sprite = turtle.Turtle()
 	sprite.shape(image_file)
 	sprite.penup()
